@@ -4,8 +4,7 @@ username:admin123
 password:admin123
 
 Live deployed link to frontend (GitHub Pages/Netlify/Vercel).
-https://richiemaeomandam.github.io/backend/
-
+https://gwapobenjie.github.io/pang-last/
 
 GET /api/tasks/ - Fetch all tasks
 
