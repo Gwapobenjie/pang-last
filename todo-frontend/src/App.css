@@ -50,11 +50,11 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f4f4f4;
-  color: #D5006D; /* Dark pink text color */
+  color: #2ba81f; 
 }
 
 .container {
-  background: palevioletred;
+  background: rgb(92, 196, 97);
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -65,7 +65,7 @@ body {
 
 h1 {
   margin-bottom: 10px;
-  color: #D5006D; /* Dark pink */
+  color: #2ea351; 
 }
 
 button {
@@ -76,7 +76,7 @@ button {
   transition: 0.3s;
   font-size: 14px;
   margin: 5px;
-  color: #D5006D; /* Dark pink */
+  color: #3fa83c; 
 }
 
 button:hover {
@@ -85,7 +85,7 @@ button:hover {
 
 .dark-mode {
   background-color: #222;
-  color: #D5006D; /* Dark pink text in dark mode */
+  color: #39af57; 
 }
 
 .input-container {
@@ -99,14 +99,14 @@ button:hover {
   flex: 1;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #D5006D; /* Dark pink border */
+  border: 1px solid #40c046; 
   outline: none;
-  color: #D5006D; /* Dark pink text */
+  color: #31c57b; 
 }
 
 .input-container .add-btn {
   background-color: #007bff;
-  color: #D5006D; /* Dark pink text */
+  color: #2fa04b; 
   padding: 10px 15px;
   border-radius: 8px;
   cursor: pointer;
@@ -119,22 +119,22 @@ button:hover {
 }
 
 .dark-mode .container {
-  background: palevioletred;
-  color: #D5006D; /* Dark pink text in dark mode */
+  background: rgb(50, 190, 61);
+  color: #51bd99; 
 }
 
 .dark-mode button {
   background: #444;
-  color: #D5006D; /* Dark pink text in dark mode button */
+  color: #32b35d; 
 }
 
 input[type="text"] {
   width: 80%;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #D5006D; /* Dark pink border */
+  border: 1px solid #39a7d3; 
   outline: none;
-  color: #D5006D; /* Dark pink text */
+  color: #42c599; 
 }
 
 .todo-list {
@@ -146,7 +146,7 @@ input[type="text"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: palevioletred;
+  background: rgb(230, 169, 89);
   padding: 10px;
   margin: 8px 0;
   border-radius: 8px;
@@ -173,19 +173,19 @@ input[type="text"] {
   color: white;
 }
 
-/* Make task input text dark pink */
+
 input[type="text"] {
-  color: #D5006D; /* Dark pink font color for task input */
+  color: #4bc6d6; 
 }
 
-/* Style the added task list items */
+
 .todo-list li {
   font-size: 16px;
-  color: #D5006D; /* Dark pink text for todo items */
+  color: #1e8841; 
 }
 
 .todo-item span {
-  color: #D5006D; /* Dark pink font for task title */
+  color: #67e057; 
 }
 
 /* Mobile Responsive */
@@ -196,16 +196,16 @@ input[type="text"] {
   }
 }
 
-/* Style for li with pink text decoration and font color */
+
 li {
-  color: #D5006D; /* Pink font color */
-  text-decoration: underline; /* Underline text */
-  text-decoration-color: #D5006D; /* Pink underline color */
+  color: #0ce60c; 
+  text-decoration: underline; 
+  text-decoration-color: #57e021; 
 }
 
-/* Alternatively, for strikethrough effect with pink color */
+
 li.completed {
-  color: #D5006D; /* Pink font color */
+  color: #9bf335; 
   text-decoration: line-through;
-  text-decoration-color: #D5006D; /* Pink strikethrough */
+  text-decoration-color: #97cc35; 
 }
